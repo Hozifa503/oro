@@ -9,3 +9,47 @@
 body {
     font-family: 'Quicksand', sans-serif;
 }
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    background-color: #1e1d1a;
+}
+
+#navbar img {
+    width: 80px;
+    margin-left: 100px;
+    cursor: pointer;
+    transition: 0.4s ease all;
+}
+
+#navbar img:hover {
+    transform: scale(1.1);
+}
+
+#navbar ul {
+    display: flex;
+    margin-right: 100px;
+}
+
+#navbar ul li a {
+    display: inline-block;
+    padding: 15px 20px;
+    color: whitesmoke;
+    font-weight: 600;
+    transition: 0.4s ease all;
+}
+
+#navbar ul li a:hover {
+    transform: scale(1.1);
+    border-bottom: 2px solid #ecb643;
+}
