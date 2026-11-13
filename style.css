@@ -18,6 +18,35 @@ a {
     text-decoration: none;
 }
 
+
+.primary-text {
+    color: #ecb643;
+}
+
+.btn {
+    display: inline-block;
+    padding: 13px 25px;
+    border: none;
+    border-radius: 15px;
+}
+
+.btn-primary {
+    color: white;
+    border: 2px solid #ecb643;
+    transition:0.4s ease all;
+}
+
+.btn-primary:hover {
+    transform: scale(1.1);
+    background-color: #ecb643;
+}
+
+header {
+    height: 100vh;
+    background: url('./images/home_bg.jpeg') center center/cover no-repeat;
+    position: relative;
+}
+
 #navbar {
     display: flex;
     justify-content: space-between;
@@ -52,4 +81,36 @@ a {
 #navbar ul li a:hover {
     transform: scale(1.1);
     border-bottom: 2px solid #ecb643;
+}
+
+header .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:85%;
+}
+
+header .content h1 {
+    font-size: 40px;
+    color: whitesmoke;
+}
+
+header .content p {
+    margin: 20px 0 40px;
+    color: whitesmoke;
+}
+
+header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgb(0 ,0, 0 , 0.4);
+}
+
+header * {
+    z-index: 10;
 }
