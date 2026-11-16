@@ -18,6 +18,12 @@ a {
     text-decoration: none;
 }
 
+.container {
+    background-color:#140f04;
+    max-width:100%;
+    margin: auto;
+}
+
 
 .primary-text {
     color: #ecb643;
@@ -39,6 +45,23 @@ a {
 .btn-primary:hover {
     transform: scale(1.1);
     background-color: #ecb643;
+}
+
+.btn-secondary {
+    margin-top: 2rem;
+    margin-left: 5rem;
+    color: #140f04;
+    font-weight: 800;
+    font-size: 15px;
+    background-color: #ecb643;
+    transition: 0.4s ease all;
+}
+
+.btn-secondary:hover {
+    transform: scale(1.1);
+    background-color: #140f04;
+    color: #ecb643;
+    border: 2px solid #ecb643;
 }
 
 header {
@@ -113,4 +136,48 @@ header::before {
 
 header * {
     z-index: 10;
+}
+
+#about {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: space-between;
+    background: #140f04;
+}
+
+#about .title {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+#about h2 {
+    font-size: 40px;
+    color: #ecb643;
+    margin-bottom: 20px;
+}
+
+#about .title p {
+    font-size: 14px;
+    color: whitesmoke;
+    font-weight: 600;
+}
+
+#about .about-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+#about .about-content img {
+    width: 450px;
+    margin-right: 5rem;
+}
+
+#about .about-content p {
+    color: whitesmoke;
+    margin-top: 1rem;
+    margin-left: 5rem;
+    margin-right: 11rem;
+    font-weight: 500;
+    line-height: 1.6;
 }
