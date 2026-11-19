@@ -238,3 +238,17 @@ header * {
     font-weight: 600;
     margin-left: 5px;
 }
+
+#menu {
+    background: whitesmoke;
+    padding: 5rem 0;
+}
+
+#menu .title {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+#menu h2 {
+    
+}
