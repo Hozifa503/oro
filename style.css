@@ -377,3 +377,41 @@ header * {
     font-size: 32px;
     margin: 20px 0 10px;
 }
+
+#gallery {
+    background-color: #140f04;
+    padding: 8rem 0 6rem;
+}
+
+#gallery .container {
+    background-color: transparent;
+}
+
+#gallery h2 {
+    color: #ecb643;
+    font-size: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#gallery .img-gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#gallery .img-gallery img {
+    width:  230px;
+    height: 230px;
+    border-radius: 15px;
+    margin: 20px;
+    opacity: 0.8;
+    object-fit: cover;
+    transition: 0.1s ease all;
+}
+
+#gallery .img-gallery img:hover {
+    transform: scale(1.05);
+    opacity: 1;
+}
