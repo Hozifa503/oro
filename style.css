@@ -183,13 +183,21 @@ header * {
 }
 
 #offers {
-    height: 80vh;
+    min-height: 80vh;
+    height: auto;
+    width: 100%;
     display: flex;
     justify-content: center;
+    align-items: center;
+    padding: 5rem 20px;
+    position: relative;
     background: url(./images/offer-background.jpg) center center/cover fixed;
 }
 
 #offers .container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
     background-color: #140f0400;
 }
 
