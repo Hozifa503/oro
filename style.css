@@ -338,3 +338,19 @@ header * {
     margin-top: 10px;
     color: whitesmoke
 }
+
+#menu .btn {
+    background: #ecb643;
+    display: block;
+    margin: auto;
+    color: khaki;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: 0.4s all ease;
+    font-size: 1rem;
+}
+
+#menu .btn:hover {
+    transform: scale(1.1);
+
+}
