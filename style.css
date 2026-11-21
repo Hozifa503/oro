@@ -448,10 +448,10 @@ header * {
 }
 
 #contact .contact-content .contact-info p {
-    color: lightgray;
+    color: white;
 }
 #contact .contact-content .contact-info i {
-    color: whitesmoke;
+    color: #140f04;
     margin-right: 5px;
 }
 
@@ -460,7 +460,7 @@ header * {
     justify-content: center;
     align-items: center;
     color: khaki;
-    background-color: darkslategrey;
+    background-color: #140f04;
     width: 40px;
     height: 40px;
     border-radius: 50%;
@@ -505,4 +505,16 @@ form textarea {
 #contact .btn:hover {
     background-color: whitesmoke;
     color: #140f04
+}
+
+#footer {
+    background: #140f04;
+    text-align: center;
+    color: white;
+    padding: 15px 0;
+    font-size: 14px;
+}
+
+#footer a {
+    color: #ecb643;
 }
