@@ -415,3 +415,83 @@ header * {
     transform: scale(1.05);
     opacity: 1;
 }
+
+#contact {
+    padding: 5rem 0;
+    background: #ecb643;
+}
+
+#contact .container {
+    max-width: 900px;
+    background-color: transparent;
+}
+
+#contact .contact-content {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#contact .contact-content .contact-info {
+    width: 50%;
+}
+
+#contact .contact-content .contact-info div {
+    margin: 30px 0;
+    line-height: 1.7;
+}
+
+#contact .contact-content .contact-info h3 {
+    font-size: 28px;
+    color: #140f04;
+    margin-bottom: 10px;
+}
+
+#contact .contact-content .contact-info p {
+    color: lightgray;
+}
+#contact .contact-content .contact-info i {
+    color: whitesmoke;
+    margin-right: 5px;
+}
+
+#contact .contact-content .contact-info a i {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: khaki;
+    background-color:whitesmoke;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 22px;
+    transition: 0.3s ease;
+}
+
+#contact .contact-content .contact-info a i:hover {
+    transform: scale(1.08);
+    background-color: khaki;
+    color: whitesmoke;
+}
+
+form {
+    width: 50%;
+}
+
+form input {
+    display: block;
+    width: 100%;
+    padding: 20px 15px;
+    margin: 20px 0;
+    border: none;
+    background-color: #dfdfdf
+}
+
+form textarea {
+    display: block;
+    width:100%;
+    padding: 20px 15px;
+    margin: 20px 0;
+    border: none;
+    background-color: #dfdfdf;
+}
